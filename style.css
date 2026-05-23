@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+.text1{
+    color:blanchedalmond;
+    font-family:cursive;
+}
+#journal{
+    background-color:black;
+    border: 1px  solid white;
+    width: 700px;
+    height: 700px;
+    color:blanchedalmond ;
+    font-family: cursive;
+    word-wrap:break-word;
+    white-space: pre-wrap;
+}
