@@ -1,14 +1,14 @@
 function save() {
-    let userinput = document.getElementById("journal").textContent;
+    let userinput = document.getElementById("journal").value;
     localStorage.setItem('input', userinput);
-    
+    document.getElementById("journal").value = "";
 }
-const s = document.getElementById("s");
-s.addEventListener("click",save);
+const s = document.getElementById("save");
+s.onclick=save;
 function show() {
-    y = localStorage.getItem('input');
-    const x = document.getElementById("out");
-    x.textContent = y; 
+    i = localStorage.getItem('input');
+    const o = document.getElementById("output");
+    o.textContent = i; 
 }
 const notes = document.getElementById("notes");
-notes.addEventListener("click",show);
+notes.onclick=show;

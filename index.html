@@ -6,10 +6,17 @@
     </head>
     <body>
         <h1 class="text1">MY JOURNAL</h1>
-        <button id="s">save</button>
-        <textarea id="journal" placeholder="start writing your thoughts here......"></textarea>
-        <textarea id="out" ></textarea>
-        <button id="notes">show</button>
+        <div id="textarea-container">
+            <div id="writing">
+              <textarea id="journal" placeholder="start writing your thoughts here......"></textarea>
+            <button id="save">save</button>
+            </div>
+            <div id="saved">
+                <textarea readonly id="output" ></textarea>
+                <button id="notes">show</button>
+            </div>
+        </div>
+        
         <script src="script.js" defer></script>
     </body>
 </html>

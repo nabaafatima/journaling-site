@@ -14,15 +14,42 @@ body{
     font-family: cursive;
     word-wrap:break-word;
     white-space: pre-wrap;
+    resize: none;
 }
-#s{
+#save{
     height: 50px;
     width: 50px;
-    color:black;
-    font-family:cursive;
-    background-color:blanchedalmond;
+
 }
-#out{
-    color:rgb(0, 0, 0);
-    background-color:aquamarine;
+#output{
+    background-color:black;
+    border: 1px  solid white;
+    width: 700px;
+    height: 700px;
+    color:blanchedalmond ;
+    font-family: cursive;
+    word-wrap:break-word;
+    white-space: pre-wrap;
+    resize: none;
+}
+#notes{
+    height: 50px;
+    width: 50px;
+
+}
+#textarea-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#writing{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#saved{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
 }
