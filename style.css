@@ -15,10 +15,14 @@ body{
     word-wrap:break-word;
     white-space: pre-wrap;
 }
-#save{
+#s{
     height: 50px;
     width: 50px;
     color:black;
     font-family:cursive;
     background-color:blanchedalmond;
+}
+#out{
+    color:rgb(0, 0, 0);
+    background-color:aquamarine;
 }
