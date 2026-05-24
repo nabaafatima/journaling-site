@@ -1,5 +1,5 @@
 # My journaling site
-## feautures
+# feautures
 ### dark themed
 ### text area to write notes
 ### text area to show previous note
@@ -8,3 +8,7 @@
 ### javascript
 ### html
 ### css
+# How to use it?
+### Open the folder in githuh and go to the html file it will open the visual layot of the code
+# live link
+https://nabaafatima.github.io/journaling-site/
