@@ -11,4 +11,4 @@
 # How to use it?
 ### Open the folder in githuh and go to the html file it will open the visual layot of the code
 # live link
-https://nabaafatima.github.io/journaling-site/
+ https://nabaafatima.github.io/journaling-site/
